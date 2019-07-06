@@ -1,0 +1,12 @@
+void setup(){
+  size(240,120);
+  textSize(64);
+  textAlign(LEFT);
+}
+
+void draw(){
+  background(0);
+  text(key,60,80);
+  strokeWeight(5);
+  point(60,80);
+}
